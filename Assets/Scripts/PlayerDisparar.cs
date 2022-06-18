@@ -15,6 +15,12 @@ public class PlayerDisparar : MonoBehaviour
     public GameObject prefabExMove;
     public float frecuenciaExMove;
     float ExMoveCooldown;
+    public ui_player uiPlayer;
+
+    void Start()
+    {
+        uiPlayer.ActualizarCartas(meterCard);
+    }
 
     void Update()
     {
@@ -49,7 +55,7 @@ public class PlayerDisparar : MonoBehaviour
                 float dir = transform.localScale.x;
                 bala.GetComponent<Rigidbody2D>().AddForce(Vector2.right * dir * velocidadBala, ForceMode2D.Impulse); // Empujar bala
 
-                meterCard -= 1f;
+                ConsumirMeterCard(1f); // meterCard -= 1f;
                 ExMoveCooldown = frecuenciaExMove;
             }
         }
@@ -61,6 +67,7 @@ public class PlayerDisparar : MonoBehaviour
         meterCard += _cantidad; // meterCard = meterCard + _cantidad
         if (meterCard > 5f) // No puede ser mayor a 5
             meterCard = 5f;
+        uiPlayer.ActualizarCartas(meterCard);
     }
 
     void ConsumirMeterCard(float _cantidad)
@@ -68,6 +75,7 @@ public class PlayerDisparar : MonoBehaviour
         meterCard -= _cantidad;
         if(meterCard < 0f)
             meterCard = 0f;
+        uiPlayer.ActualizarCartas(meterCard);
     }
 
 }

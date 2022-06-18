@@ -7,6 +7,7 @@ public class PlayerControl : MonoBehaviour
     public float velocidad;
     public Rigidbody2D rigi;
     public CapsuleCollider2D capsuleCollider;
+    public PlayerDisparar playerDisparar;
 
     [Header("Salto")]
     public float velocidadSalto;
@@ -115,6 +116,7 @@ public class PlayerControl : MonoBehaviour
                 if (parryGo) // Tenemos un objeto parry?
                 {
                     Destroy(parryGo);
+                    playerDisparar.AumentarMeterCard(1f);
                 }
             }
         }

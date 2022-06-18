@@ -174,6 +174,7 @@ MonoBehaviour:
   velocidad: 4
   rigi: {fileID: 4103175129948070143}
   capsuleCollider: {fileID: 4103175129948070142}
+  playerDisparar: {fileID: 4103175129948070131}
   velocidadSalto: 15
   sueloCheck: {fileID: 4103175129828468856}
   sueloCheckRadio: 0.46
@@ -198,9 +199,10 @@ MonoBehaviour:
   spawnPoint: {fileID: 4103175130828646194}
   velocidadBala: 10
   frecuenciaDisparo: 0.16666667
-  meterCard: 5
+  meterCard: 4.3
   prefabExMove: {fileID: 3724099147239951883, guid: 3a8d934eda734404eb4df6b3fd1b7512, type: 3}
   frecuenciaExMove: 1
+  uiPlayer: {fileID: 0}
 --- !u!1 &4103175130761135786
 GameObject:
   m_ObjectHideFlags: 0
