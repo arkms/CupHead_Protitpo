@@ -16,7 +16,6 @@ public class PlayerDisparar : MonoBehaviour
     public float frecuenciaExMove;
     float ExMoveCooldown;
 
-
     void Update()
     {
         Disparar();
@@ -39,6 +38,9 @@ public class PlayerDisparar : MonoBehaviour
 
     void DispararExMove() // Super tiro
     {
+        ExMoveCooldown -= Time.deltaTime; // ExMoveCooldown = ExMoveCooldown - Time.deltaTime;
+        if (ExMoveCooldown > 0f) return; // Aun esta en cooldown, nos salimos de la función
+
         if (Input.GetMouseButtonDown(1)) // click derecho
         {
             if (meterCard >= 1f)
@@ -48,6 +50,7 @@ public class PlayerDisparar : MonoBehaviour
                 bala.GetComponent<Rigidbody2D>().AddForce(Vector2.right * dir * velocidadBala, ForceMode2D.Impulse); // Empujar bala
 
                 meterCard -= 1f;
+                ExMoveCooldown = frecuenciaExMove;
             }
         }
     }

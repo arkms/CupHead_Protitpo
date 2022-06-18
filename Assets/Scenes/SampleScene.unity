@@ -321,6 +321,9 @@ MonoBehaviour:
   spawnPoint: {fileID: 636402347}
   velocidadBala: 10
   frecuenciaDisparo: 0.16666667
+  meterCard: 5
+  prefabExMove: {fileID: 3724099147239951883, guid: 3a8d934eda734404eb4df6b3fd1b7512, type: 3}
+  frecuenciaExMove: 1
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -753,7 +756,7 @@ GameObject:
   - component: {fileID: 1907737344}
   - component: {fileID: 1907737343}
   - component: {fileID: 1907737342}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Parry
   m_TagString: Parry
   m_Icon: {fileID: 0}
@@ -836,7 +839,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1907737341}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.53, y: -0.24, z: 0}
+  m_LocalPosition: {x: -1.53, y: -0.68, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
