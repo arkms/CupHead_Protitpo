@@ -7,6 +7,7 @@ public class PlayerControl : MonoBehaviour
     public float velocidad;
     public Rigidbody2D rigi;
     public CapsuleCollider2D capsuleCollider;
+    public int unaVariable;
 
     [Header("Salto")]
     public float velocidadSalto;
@@ -72,7 +73,7 @@ public class PlayerControl : MonoBehaviour
         vel.x = h * velocidad;
         rigi.velocity = vel;
 
-        // Giramos al personaje hacia la direción que estamos caminando
+        // Giramos al personaje hacia la direciÃ³n que estamos caminando
         Vector3 escala = transform.localScale;
         if (h > 0f) // derecha
         {
