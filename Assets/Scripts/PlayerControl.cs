@@ -7,7 +7,6 @@ public class PlayerControl : MonoBehaviour
     public float velocidad;
     public Rigidbody2D rigi;
     public CapsuleCollider2D capsuleCollider;
-    public int unaVariable;
 
     [Header("Salto")]
     public float velocidadSalto;
