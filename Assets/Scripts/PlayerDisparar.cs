@@ -13,6 +13,8 @@ public class PlayerDisparar : MonoBehaviour
     [Header("SuperMeterCard")] 
     public float meterCard; // [0, 5]
     public GameObject prefabExMove;
+    public float frecuenciaExMove;
+    float ExMoveCooldown;
 
 
     void Update()
