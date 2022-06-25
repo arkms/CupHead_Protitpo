@@ -7,6 +7,7 @@ public class Moneda : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             Destroy(gameObject);
+            GameManager.Instance.AgregarMoneda();
         }
     }
 }

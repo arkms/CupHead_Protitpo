@@ -10,8 +10,13 @@ public class ui_player : MonoBehaviour
     [Header("Vidas")]
     public TextMeshProUGUI vidasTxt;
 
-    //TextMeshProUGUI txt1; // UI
-    //TextMeshPro txt2; // Como 3D
+    [Header("Monedas")]
+    public TextMeshProUGUI monedasTxt;
+
+    public void ActualizarMonedas(int _monedas)
+    {
+        monedasTxt.SetText(_monedas.ToString());
+    }
 
     public void ActualizarVidas(int _vidas)
     {

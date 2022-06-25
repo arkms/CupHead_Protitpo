@@ -10,12 +10,19 @@ public class GameManager : MonoBehaviour
     Vector3 posicionInicialJugador;
 
     public int vidas = 3;
+    public int monedas = 0;
     public ui_player uiPlayer;
 
     void Awake()
     {
         Instance = this;
         posicionInicialJugador = GameObject.FindGameObjectWithTag("Player").transform.position;
+    }
+
+    public void AgregarMoneda()
+    {
+        monedas++; // monedas = monedas + 1
+        uiPlayer.ActualizarMonedas(monedas);
     }
 
     public void JugadorMuere()
