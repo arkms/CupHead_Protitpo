@@ -1,12 +1,23 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class ui_player : MonoBehaviour
 {
     [Header("Carta")]
     public Image[] cartas; // [] => Es un arreglo, es decir, son varios.
+
+    [Header("Vidas")]
+    public TextMeshProUGUI vidasTxt;
+
+    //TextMeshProUGUI txt1; // UI
+    //TextMeshPro txt2; // Como 3D
+
+    public void ActualizarVidas(int _vidas)
+    {
+        vidasTxt.SetText(_vidas.ToString());      // vidasTxt.text = _vidas.ToString()
+    }
+
 
     public void ActualizarCartas(float _valor) // [0f, 5f]
     {
