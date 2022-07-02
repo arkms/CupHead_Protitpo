@@ -1,0 +1,3054 @@
+fileFormatVersion: 2
+guid: f76ad6fd48658584ea694cd7a69b861e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cuphead_sprites_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 595
+        width: 32
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4dd8495abe18e448371a06ccfb98f0
+      internalID: 314472790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: win3
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 566
+        width: 34
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac5f076ccd4c3346ba2d681ecec0393
+      internalID: 1315659461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: win4
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 566
+        width: 37
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7196db33f0c68e4d9cfa729bb342ae6
+      internalID: -1943277706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_7
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 590
+        width: 43
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd8e8861bd4e8c42b14a1217673e077
+      internalID: 1163021017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_8
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 590
+        width: 41
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f9dfbebad23794494b9d57bdc2e493
+      internalID: 1414120981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_9
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 589
+        width: 40
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b2d5e59b3426b4fa48214e05df4ed5
+      internalID: 997824990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_18
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 548
+        width: 33
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a5bbcfc267d484199b75596477024d
+      internalID: 2085380830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_28
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 543
+        width: 48
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c8f00b9cd49e84b8188604d955bf36
+      internalID: 1171891084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_38
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 472
+        width: 38
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c93654938d6fb498fa728f28de5c3b
+      internalID: 2027946919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_39
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 481
+        width: 31
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bba6044522fbdb438508e463be2844d
+      internalID: -171758311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_40
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 480
+        width: 38
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 888f5f00ddce50b43bfaa9a6c99a1f5f
+      internalID: -791010042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_41
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 472
+        width: 40
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c741d48f970d6647a78d9760c4d89dc
+      internalID: 1373057517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_46
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 468
+        width: 46
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e7136be0edddc4b98a0938d8669c0e
+      internalID: 1619662502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_47
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 476
+        width: 49
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6719393f8d32af346b70ab6c509780cd
+      internalID: 1653287037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_48
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 467
+        width: 40
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b16bb49874adf47978b2936443fb32
+      internalID: 964089070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_49
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 469
+        width: 44
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 119c5bbfc9f64074ab72fe5112a55313
+      internalID: -1647337174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_62
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 416
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa69b18129ca3b24cb4af00fc17c8e31
+      internalID: 270752832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_71
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 356
+        width: 42
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d87f2b85d87ca2344b125ed936c7194e
+      internalID: 911759491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_72
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 356
+        width: 43
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd333cfa0b3f404aaf940bcfd061191
+      internalID: 345870311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_73
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 356
+        width: 35
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0870366cae5ce41b7bb1360d55026b
+      internalID: -1236734177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_74
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 356
+        width: 40
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f1688ea98cecc4ab633cdcab7bc569
+      internalID: -712432559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_75
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 356
+        width: 43
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10cf21aa3858f44b96d4ee5a79ad127
+      internalID: -1164209226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_76
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 356
+        width: 38
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8033b57f48bdc247a95a432af530f1f
+      internalID: -377445152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_77
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 356
+        width: 37
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ff379dde39da94eb10fe95d5473a1e
+      internalID: -646887368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_78
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 356
+        width: 40
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c0697478f6238458a4e001b5def2ca
+      internalID: 1412803041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_81
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 352
+        width: 55
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b11f023ccabdbb74da651d6d31c0e2aa
+      internalID: 351039649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_82
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 353
+        width: 51
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85332d9b2b226040a15fdf72654c56a
+      internalID: 1779492365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_83
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 352
+        width: 45
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d827b4645b7bc44f8228eb0d7e2cc40
+      internalID: -234930063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_84
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 351
+        width: 47
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb4e65521f0c274d92b6371e52ee306
+      internalID: -1927006326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_85
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 351
+        width: 48
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f61f825f741f34439a6a5ba6c325e4e
+      internalID: -359468778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_86
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 350
+        width: 45
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94816ccc72d7bb418b90e4f809c9414
+      internalID: 660129813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_87
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 349
+        width: 47
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a3e1e60e448265458f7eac4475bf278
+      internalID: 1926691323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_88
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 348
+        width: 46
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5334d3b5b45f74981837eed0dbc92a
+      internalID: -94348540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_96
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 253
+        width: 36
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb7760f2195a3547af8d15aaf5d7410
+      internalID: 771214983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_97
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 265
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c205865962a1ce44389cd73f4e267d21
+      internalID: 432918009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_98
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 266
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df8e3fe058df2b48a4c5efde77a92c3
+      internalID: 222010178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_99
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 265
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad301e071d23c14980514ffca4a708e
+      internalID: 529160613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_100
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 224
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ebbfd2f91c01b4982c204623f66eeb
+      internalID: -1174194090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_101
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 224
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b0a59c2401b08940bd0b9bdd2b81344
+      internalID: -544469897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_102
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 224
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e84cca97a20e834abe1bf3971109658
+      internalID: -1927312976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_103
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 224
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc0554147a2cf44fa5bdd3f3b2321ca
+      internalID: -1377449708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_104
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 248
+        width: 43
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ed9133e8621394a898133e8edaff34
+      internalID: -1611027659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_105
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 248
+        width: 41
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca64c72fca4b4544959df206378f439
+      internalID: 1434768730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_106
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 247
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab216c710edb32447ae54d541310e0c8
+      internalID: -1014753832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_107
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 261
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e295de8ccb69db346bb00814e5c4b2ff
+      internalID: 1457864986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_108
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 262
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca4078b082218442aaf721e1102abbf
+      internalID: 531694908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_109
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 261
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab6c88f86e7df5b428917a73e16322e9
+      internalID: -433801648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_110
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 262
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb813be0b56fa04cb495fa684fe5821
+      internalID: -506657166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_111
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 259
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7f6c26ca4bede4a84cb3ae8ae69d18
+      internalID: 1508441763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_112
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 259
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66143252f8806ce499d68c958d380678
+      internalID: -2056037764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_113
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 261
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88c217a5b0630541b5077f021ac7587
+      internalID: -789432762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_114
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 262
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca790091cc67f341a5ce0c9d5faa7eb
+      internalID: 732821907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_115
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 206
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05197d21bd6e3c5438cf524d6f4a7874
+      internalID: -133040598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_116
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 238
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4dc5725ec14a1941af1cba33c481ebf
+      internalID: -976120730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_117
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 239
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bce1f5b9efd0914eba3f6477847adde
+      internalID: 1139296393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_118
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 238
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7f9c13963f1e94c8528a8f4abb758d
+      internalID: -1987756285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_119
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 238
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8338929519bbcc8468052475ddc8c915
+      internalID: -1039240118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_120
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 238
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5452ab1e66c8100439bc5426ffa0734b
+      internalID: 1852328183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_121
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 213
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc8083732734a841a5aa8ccef0708be
+      internalID: -589615095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_122
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 213
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0742d643c0db04c89277d2856e1f79
+      internalID: 1276955736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_123
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 213
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796d9031803b5624da4e705c295e2ab9
+      internalID: -1483857296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_124
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 214
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8766f3aa9a09146a311e16558916ce
+      internalID: 1695453200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_125
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 201
+        width: 49
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5fc66dd1b223d64690c13d2e15edce4
+      internalID: 196284391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_126
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 212
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8522fd24b5f96fb48a5afeaafd6e2fec
+      internalID: 1163514492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_127
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 212
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77187112d1b14c94fb5054e415be8d5c
+      internalID: -1334376068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_128
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 212
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55f81b0e4c3e564a9756373049e5a07
+      internalID: -1066860259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_129
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 213
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374f362feace8574fa55252d5051dd3f
+      internalID: 256202247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_130
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 213
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9380e46b481cd46bbb387164cc75ed
+      internalID: 958697434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_131
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 210
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09fb53aeeb48f1b44828321b4ec0cd36
+      internalID: 1960806286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_132
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 210
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd07976c0b2dbff4f913b177c417a9c8
+      internalID: -1932102354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_133
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 212
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cc4255bcd0212049b3513be9db367f0
+      internalID: 187151013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_134
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 213
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1259794dcb48a34088ad4b72079c99f
+      internalID: 1175303126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_135
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 130
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 752d5d467d08e3645afad2c5a29df5a7
+      internalID: 405887295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_136
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 139
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9211252268bff945a939c8283fd6c14
+      internalID: 580840005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_137
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 138
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44e9035610c1fb4ab2941e2701bb272
+      internalID: 1168096552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_138
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 130
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27135d9932acd77479d86533327b8512
+      internalID: 1940584185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_139
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 149
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e2a12e7e9a262489384b7704b9a7b5
+      internalID: -282717788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_140
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 149
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a08ed5fb2259e14d87ab3f804f02fa5
+      internalID: 463115612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_141
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 150
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6654de0b0dd279146940bac70ea35e65
+      internalID: 1422975568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_142
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 147
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d7440199f6ed440a69eaeb479d2e97
+      internalID: -1854227378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_143
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 126
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de8018b4b663fd4e8306d8634bad145
+      internalID: -552759020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_144
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 134
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7943cb0277a21cc4890a7022a6e98780
+      internalID: -1709755186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_145
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 125
+        width: 41
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6de8a072cda90284297c8464322cc3d9
+      internalID: 2034430411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_146
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 127
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8f8964cf06e75459f922c4b9a7200e
+      internalID: -1506065321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_147
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 147
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d2d340d6ac162844a30ddb927f2a687
+      internalID: -286882016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_148
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 147
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b0e68d00cc6324197108d75694dc27
+      internalID: -445011050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_149
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 148
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e13bc0c47ca3fa45b66025d0d29e56f
+      internalID: 1732288622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_150
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 145
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ebbcde4faf59647b3cb3fcf71465e2
+      internalID: -573619239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_151
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 148
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f84634e3c2421594c99e319c4634cc81
+      internalID: 466796759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_152
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 145
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a1ea9c02cd0eab4d88f9b0ac2905804
+      internalID: 1760311938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_153
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 145
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8760547066388974f8979776bedc4573
+      internalID: 265737662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_154
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 147
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625ab5519332def41be9bea844864194
+      internalID: -766756522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_155
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 148
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82d56ed37569d244aa56d9a6f60a41f
+      internalID: 2120477107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_156
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 112
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff55d282a86d874dbbd638986bf6fd1
+      internalID: -1631329281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_157
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 115
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5581c1e3f8ef9d46af200fdf465b17e
+      internalID: -1862321699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_158
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 114
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1649d8bc2cfcf304984e948d6571db57
+      internalID: -1742403148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_159
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 74
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1557c0390c643d4f8d9d6d07987bb82
+      internalID: -1445211573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_160
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 65
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d87c2520fcd9647bc57e4d4a13b802
+      internalID: 868018796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_161
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 69
+        width: 43
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e882fb626350d5e4886131241c4431cb
+      internalID: -268020439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_162
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 71
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff9a4c5b4472e6143b098d3f4610c6ff
+      internalID: 1095311868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_163
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 94
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a33a9da70f5bd4a89f71cbbf21561b
+      internalID: 803116269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_164
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 93
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17519095be3479f44baa3ab3f7493f7f
+      internalID: 1643481117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_165
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 92
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a940e8c69fd4046ab9dd682bf3690d
+      internalID: 126177990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_166
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 90
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a1703ce73d6f541b3591729a154277
+      internalID: -570004174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_167
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 70
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a85feb967cf301e4abd206bf3ef9278b
+      internalID: 404910236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_168
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 14
+        width: 94
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45b39f79f0739442a5632f65e8fe707
+      internalID: -1420166904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_169
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 13
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a5876c6acba034bb1ccaa2a6f71478
+      internalID: 1488820363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_170
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 13
+        width: 90
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d29bce53d2032b42b0907169fd20e45
+      internalID: -108831066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_171
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 13
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaab5e0b96a18424b9ce834c5e11eba1
+      internalID: 10771105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_172
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 9
+        width: 55
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0685d68e94dac9d47b152f79ab15c2d0
+      internalID: 362095744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_173
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 10
+        width: 50
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 634a07fc004c5e84b8dd8ff52da4ac90
+      internalID: 549502747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_174
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 8
+        width: 89
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490feb41bc89fae48aecc2a706b59104
+      internalID: 2009043151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_175
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 8
+        width: 49
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a239e5d34b6306b4784e9d356cfbc4fb
+      internalID: 898033411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_176
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 7
+        width: 52
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78039b7fa731d0a4faa49e654142c583
+      internalID: 1925009550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_177
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 6
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4086b196b468214fbcbd46de8c7bdba
+      internalID: -474705097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_178
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 5
+        width: 49
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed9f10ca5d027e4ab95fe1d83797bfc
+      internalID: -275751536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_179
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 17
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea160cfcc5a17542a898662fa3815af
+      internalID: -290498924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_180
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 18
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb0137dee2760144977cef520963d05
+      internalID: -1780581257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_181
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 18
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda1af85d4cbc6c4eb6fb6b437c711f7
+      internalID: 1764427563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_182
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 15
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0563de264f2d3834f866515b0f08a3e7
+      internalID: 609627183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_183
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 15
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a6cc23925253d4088d7890f97e67e4
+      internalID: -1858746928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_184
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 17
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c416b292d7217954e924ae906fcf890e
+      internalID: -787496223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_185
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 18
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca8f70d34f277294096899c2d08f8926
+      internalID: 1592460245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_186
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 0
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fcb2f1467d28a947a9cb6e2f1d216d4
+      internalID: 1212480284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuphead_sprites_187
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7448e88e5e39d654189d2cf041f3d244
+      internalID: -1836102225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit1
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 407
+        width: 33
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1564b31b4e30eab408fafceb83c89258
+      internalID: -1991714471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit2
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 413
+        width: 43
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd43835d2ad006a42aba91f19f1f124f
+      internalID: 610511750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit3
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 414
+        width: 43
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a466ed438222964c8617375219a9443
+      internalID: -1558841600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: win1
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 566
+        width: 34
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7cecc43623329b409d30e6b4f8f6f53
+      internalID: -1505889858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: win2
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 566
+        width: 34
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf61c451c953bcb4eb8e0c4aa999da86
+      internalID: -1766384577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      cuphead_sprites_168: -1420166904
+      cuphead_sprites_19: -439914572
+      cuphead_sprites_176: 1925009550
+      cuphead_sprites_162: 1095311868
+      cuphead_sprites_167: 404910236
+      cuphead_sprites_124: 1695453200
+      cuphead_sprites_147: -286882016
+      cuphead_sprites_35: 1041192104
+      win2: -1766384577
+      cuphead_sprites_55: 724190083
+      cuphead_sprites_118: -1987756285
+      cuphead_sprites_175: 898033411
+      cuphead_sprites_103: -1377449708
+      cuphead_sprites_66: -522827205
+      cuphead_sprites_113: -789432762
+      cuphead_sprites_187: -1836102225
+      cuphead_sprites_182: 609627183
+      hit1: -1991714471
+      cuphead_sprites_108: 531694908
+      cuphead_sprites_159: -1445211573
+      cuphead_sprites_181: 1764427563
+      cuphead_sprites_80: 1013066454
+      cuphead_sprites_131: 1960806286
+      cuphead_sprites_145: 2034430411
+      cuphead_sprites_164: 1643481117
+      cuphead_sprites_26: -52715489
+      cuphead_sprites_58: 942742238
+      cuphead_sprites_129: 256202247
+      cuphead_sprites_60: -1682116209
+      cuphead_sprites_149: 1732288622
+      cuphead_sprites_160: 868018796
+      hit3: -1558841600
+      cuphead_sprites_93: 1456299174
+      cuphead_sprites_31: -1248722725
+      cuphead_sprites_37: 1247228025
+      cuphead_sprites_41: 1373057517
+      cuphead_sprites_140: 463115612
+      cuphead_sprites_133: 187151013
+      cuphead_sprites_143: -552759020
+      cuphead_sprites_3: 1589962953
+      cuphead_sprites_126: 1163514492
+      cuphead_sprites_7: 1163021017
+      cuphead_sprites_82: 1779492365
+      cuphead_sprites_148: -445011050
+      cuphead_sprites_47: 1653287037
+      cuphead_sprites_100: -1174194090
+      cuphead_sprites_127: -1334376068
+      cuphead_sprites_101: -544469897
+      cuphead_sprites_183: -1858746928
+      cuphead_sprites_16: -918633413
+      cuphead_sprites_153: 265737662
+      cuphead_sprites_11: -1140572668
+      cuphead_sprites_78: 1412803041
+      cuphead_sprites_23: -2007294928
+      cuphead_sprites_110: -506657166
+      win3: 1315659461
+      cuphead_sprites_132: -1932102354
+      cuphead_sprites_152: 1760311938
+      cuphead_sprites_134: 1175303126
+      cuphead_sprites_154: -766756522
+      cuphead_sprites_116: -976120730
+      cuphead_sprites_25: 1222709034
+      cuphead_sprites_99: 529160613
+      cuphead_sprites_137: 1168096552
+      cuphead_sprites_96: 771214983
+      cuphead_sprites_85: -359468778
+      cuphead_sprites_141: 1422975568
+      cuphead_sprites_184: -787496223
+      cuphead_sprites_10: 1985106577
+      win4: -1943277706
+      cuphead_sprites_121: -589615095
+      cuphead_sprites_45: -1076510653
+      cuphead_sprites_49: -1647337174
+      cuphead_sprites_151: 466796759
+      cuphead_sprites_94: 1469561688
+      cuphead_sprites_146: -1506065321
+      cuphead_sprites_97: 432918009
+      cuphead_sprites_136: 580840005
+      cuphead_sprites_40: -791010042
+      cuphead_sprites_173: 549502747
+      cuphead_sprites_150: -573619239
+      cuphead_sprites_62: 270752832
+      win1: -1505889858
+      cuphead_sprites_13: -1995423125
+      cuphead_sprites_172: 362095744
+      cuphead_sprites_72: 345870311
+      cuphead_sprites_81: 351039649
+      cuphead_sprites_87: 1926691323
+      cuphead_sprites_105: 1434768730
+      cuphead_sprites_90: 1144373590
+      cuphead_sprites_74: -712432559
+      cuphead_sprites_112: -2056037764
+      cuphead_sprites_12: -2086395272
+      cuphead_sprites_70: -692558772
+      cuphead_sprites_179: -290498924
+      cuphead_sprites_65: 770227993
+      cuphead_sprites_54: -1298246556
+      cuphead_sprites_92: 2012235284
+      cuphead_sprites_14: 1912509720
+      cuphead_sprites_157: -1862321699
+      cuphead_sprites_86: 660129813
+      cuphead_sprites_180: -1780581257
+      cuphead_sprites_8: 1414120981
+      cuphead_sprites_163: 803116269
+      cuphead_sprites_9: 997824990
+      cuphead_sprites_139: -282717788
+      cuphead_sprites_120: 1852328183
+      cuphead_sprites_50: 1733628710
+      cuphead_sprites_98: 222010178
+      cuphead_sprites_76: -377445152
+      cuphead_sprites_77: -646887368
+      cuphead_sprites_42: 1617971175
+      cuphead_sprites_29: -1597109044
+      cuphead_sprites_21: -1536893964
+      cuphead_sprites_63: 1011392155
+      cuphead_sprites_51: -1240197822
+      cuphead_sprites_119: -1039240118
+      cuphead_sprites_38: 2027946919
+      cuphead_sprites_91: 1434353249
+      cuphead_sprites_130: 958697434
+      cuphead_sprites_106: -1014753832
+      cuphead_sprites_75: -1164209226
+      cuphead_sprites_34: -1669525565
+      cuphead_sprites_109: -433801648
+      cuphead_sprites_117: 1139296393
+      cuphead_sprites_178: -275751536
+      cuphead_sprites_28: 1171891084
+      cuphead_sprites_169: 1488820363
+      cuphead_sprites_36: 962078152
+      cuphead_sprites_123: -1483857296
+      cuphead_sprites_158: -1742403148
+      cuphead_sprites_33: -1897559364
+      cuphead_sprites_24: -2133718492
+      cuphead_sprites_39: -171758311
+      cuphead_sprites_32: -108049881
+      cuphead_sprites_73: -1236734177
+      cuphead_sprites_171: 10771105
+      cuphead_sprites_67: 1814004695
+      cuphead_sprites_155: 2120477107
+      cuphead_sprites_17: -790357920
+      hit2: 610511750
+      cuphead_sprites_43: -219400205
+      cuphead_sprites_107: 1457864986
+      cuphead_sprites_142: -1854227378
+      cuphead_sprites_144: -1709755186
+      cuphead_sprites_186: 1212480284
+      cuphead_sprites_18: 2085380830
+      cuphead_sprites_2: 458276577
+      cuphead_sprites_185: 1592460245
+      cuphead_sprites_68: -511440095
+      cuphead_sprites_48: 964089070
+      cuphead_sprites_84: -1927006326
+      cuphead_sprites_115: -133040598
+      cuphead_sprites_161: -268020439
+      cuphead_sprites_89: -660331708
+      cuphead_sprites_174: 2009043151
+      cuphead_sprites_166: -570004174
+      cuphead_sprites_135: 405887295
+      cuphead_sprites_69: 871194337
+      cuphead_sprites_138: 1940584185
+      cuphead_sprites_102: -1927312976
+      cuphead_sprites_177: -474705097
+      cuphead_sprites_122: 1276955736
+      cuphead_sprites_165: 126177990
+      cuphead_sprites_156: -1631329281
+      cuphead_sprites_30: -510510776
+      cuphead_sprites_20: 1405945489
+      cuphead_sprites_53: 2003721949
+      cuphead_sprites_95: -1780108393
+      cuphead_sprites_114: 732821907
+      cuphead_sprites_61: 221511920
+      cuphead_sprites_64: -1477275750
+      cuphead_sprites_57: 1365001085
+      cuphead_sprites_83: -234930063
+      cuphead_sprites_46: 1619662502
+      cuphead_sprites_125: 196284391
+      cuphead_sprites_22: 1650937828
+      cuphead_sprites_27: -1309834061
+      cuphead_sprites_88: -94348540
+      cuphead_sprites_52: 1170154821
+      cuphead_sprites_104: -1611027659
+      cuphead_sprites_56: -186417770
+      cuphead_sprites_71: 911759491
+      cuphead_sprites_0: 314472790
+      cuphead_sprites_44: 1549278048
+      cuphead_sprites_111: 1508441763
+      cuphead_sprites_128: -1066860259
+      cuphead_sprites_15: 1163344614
+      cuphead_sprites_79: 330332305
+      cuphead_sprites_170: -108831066
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -8,6 +8,7 @@ public class PlayerControl : MonoBehaviour
     public Rigidbody2D rigi;
     public CapsuleCollider2D capsuleCollider;
     public PlayerDisparar playerDisparar;
+    public PlayerAnimation playerAnimation;
 
     [Header("Salto")]
     public float velocidadSalto;
@@ -85,6 +86,8 @@ public class PlayerControl : MonoBehaviour
         }
 
         transform.localScale = escala;
+
+        playerAnimation.SetSpeed(Mathf.Abs(h));
     }
 
     void Agachar()
@@ -104,9 +107,12 @@ public class PlayerControl : MonoBehaviour
 
     void Saltar()
     {
+        bool EstaTocandoSuelo = Physics2D.OverlapCircle(sueloCheck.position, sueloCheckRadio, suelomask);
+
+        playerAnimation.SetIsJumping(!EstaTocandoSuelo);
+
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            bool EstaTocandoSuelo = Physics2D.OverlapCircle(sueloCheck.position, sueloCheckRadio, suelomask);
             if (EstaTocandoSuelo || EstaTocandoObjetoParry) //  OR => ||
             {
                 Vector2 vel = rigi.velocity;
