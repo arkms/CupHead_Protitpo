@@ -32,4 +32,21 @@ public class PlayerAnimation : MonoBehaviour
         anim.SetTrigger("hit");
     }
 
+    public void Win()
+    {
+        anim.SetTrigger("win");
+    }
+
+    public void SetIsShooting(bool v)
+    {
+        if (v)
+        {
+            anim.SetFloat("shooting", 1f);
+        }
+        else
+        {
+            anim.SetFloat("shooting", 0f);
+        }
+    }
+
 }

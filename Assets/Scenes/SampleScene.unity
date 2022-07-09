@@ -258,6 +258,17 @@ RectTransform:
   m_AnchoredPosition: {x: 14.1632, y: -0.00000027567}
   m_SizeDelta: {x: 9.5441, y: 15.3641}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &403603613 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1518697040, guid: d713069844cd6714dbeec62e463c7889, type: 3}
+  m_PrefabInstance: {fileID: 4103175130248420761}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6365c2aad9d83cc4a8581132499abbdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1985,6 +1996,10 @@ PrefabInstance:
       propertyPath: uiPlayer
       value: 
       objectReference: {fileID: 1546054695}
+    - target: {fileID: 4103175129948070131, guid: d713069844cd6714dbeec62e463c7889, type: 3}
+      propertyPath: playerAnimation
+      value: 
+      objectReference: {fileID: 403603613}
     - target: {fileID: 4103175129948070141, guid: d713069844cd6714dbeec62e463c7889, type: 3}
       propertyPath: m_Name
       value: Player

@@ -51,4 +51,20 @@ public class GameManager : MonoBehaviour
         vidas++; // vidas = vidas + 1
         uiPlayer.ActualizarVidas(vidas);
     }
+
+    [ContextMenu("Nivel completado")]
+    public void NivelCompletado()
+    {
+        playerControl.enabled = false; // desactivamo script
+        playerControl.GetComponent<PlayerAnimation>().Win();
+        playerControl.GetComponent<PlayerDisparar>().enabled = false; // Ya no puede disparar
+
+        Invoke(nameof(CargarSiguienteNivel), 3f);
+    }
+
+    void CargarSiguienteNivel()
+    {
+        print("Aqui cargar otro nivel");
+    }
+
 }

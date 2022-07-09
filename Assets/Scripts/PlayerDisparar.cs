@@ -17,6 +17,8 @@ public class PlayerDisparar : MonoBehaviour
     float ExMoveCooldown;
     public ui_player uiPlayer;
 
+    public PlayerAnimation playerAnimation;
+
     void Start()
     {
         uiPlayer.ActualizarCartas(meterCard);
@@ -31,14 +33,22 @@ public class PlayerDisparar : MonoBehaviour
     void Disparar()
     {
         disparoCooldown -= Time.deltaTime;
-        if (disparoCooldown > 0f) return; // Todavia esta en cooldown el disparo, nos salimos.
-
+        
         if (Input.GetMouseButton(0)) // Esta siendo presionado click izquierdo?
         {
-            GameObject bala = Instantiate(prefabBala, spawnPoint.position, spawnPoint.rotation);
-            float dir = transform.localScale.x;
-            bala.GetComponent<Rigidbody2D>().AddForce(Vector2.right * dir * velocidadBala, ForceMode2D.Impulse); // Empujar bala
-            disparoCooldown = frecuenciaDisparo;
+            playerAnimation.SetIsShooting(true);
+
+            if (disparoCooldown < 0f)
+            {
+                GameObject bala = Instantiate(prefabBala, spawnPoint.position, spawnPoint.rotation);
+                float dir = transform.localScale.x;
+                bala.GetComponent<Rigidbody2D>().AddForce(Vector2.right * dir * velocidadBala, ForceMode2D.Impulse); // Empujar bala
+                disparoCooldown = frecuenciaDisparo;
+            }
+        }
+        else
+        {
+            playerAnimation.SetIsShooting(false);
         }
     }
 
