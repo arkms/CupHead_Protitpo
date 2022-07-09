@@ -636,6 +636,7 @@ MonoBehaviour:
   vidas: 3
   monedas: 0
   uiPlayer: {fileID: 1546054695}
+  playerControl: {fileID: 0}
 --- !u!4 &769080866
 Transform:
   m_ObjectHideFlags: 0
@@ -1942,11 +1943,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4103175129948070128, guid: d713069844cd6714dbeec62e463c7889, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.65
+      value: -5.93
       objectReference: {fileID: 0}
     - target: {fileID: 4103175129948070128, guid: d713069844cd6714dbeec62e463c7889, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.05
+      value: -0.93
       objectReference: {fileID: 0}
     - target: {fileID: 4103175129948070128, guid: d713069844cd6714dbeec62e463c7889, type: 3}
       propertyPath: m_LocalPosition.z

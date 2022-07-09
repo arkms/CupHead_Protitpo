@@ -22,4 +22,14 @@ public class PlayerAnimation : MonoBehaviour
         anim.SetBool("isJumping", v);
     }
 
+    public void SetIsAgachado(bool v)
+    {
+        anim.SetBool("isAgachado", v);
+    }
+
+    public void Hit()
+    {
+        anim.SetTrigger("hit");
+    }
+
 }

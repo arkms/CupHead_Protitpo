@@ -97,11 +97,13 @@ public class PlayerControl : MonoBehaviour
         {
             capsuleCollider.offset = ColliderOffsetAgachado;
             capsuleCollider.size = ColliderSizeAgachado;
+            playerAnimation.SetIsAgachado(true);
         }
         else // Estoy de pie
         {
             capsuleCollider.offset = ColliderOffsetPie;
             capsuleCollider.size = ColliderSizePie;
+            playerAnimation.SetIsAgachado(false);
         }
     }
 
@@ -149,6 +151,10 @@ public class PlayerControl : MonoBehaviour
         rigi.gravityScale = 1f;
     }
 
+    public void Danio()
+    {
+        playerAnimation.Hit();
+    }
 
     void OnDrawGizmosSelected()
     {

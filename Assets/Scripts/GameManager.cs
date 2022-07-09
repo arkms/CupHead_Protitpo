@@ -12,11 +12,13 @@ public class GameManager : MonoBehaviour
     public int vidas = 3;
     public int monedas = 0;
     public ui_player uiPlayer;
+    public PlayerControl playerControl;
 
     void Awake()
     {
         Instance = this;
-        posicionInicialJugador = GameObject.FindGameObjectWithTag("Player").transform.position;
+        playerControl = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerControl>();
+        posicionInicialJugador = GameObject.FindGameObjectWithTag("Player").transform.position;  // playerControl.transform.position;
     }
 
     public void AgregarMoneda()
@@ -40,6 +42,7 @@ public class GameManager : MonoBehaviour
             GameObject.FindGameObjectWithTag("Player").transform.position = posicionInicialJugador;
         }
 
+        playerControl.Danio();
         uiPlayer.ActualizarVidas(vidas);
     }
 
