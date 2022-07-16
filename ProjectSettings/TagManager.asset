@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Parry
+  - Pared
+  - Suelo
   layers:
   - Default
   - TransparentFX
