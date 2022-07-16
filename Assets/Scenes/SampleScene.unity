@@ -2004,6 +2004,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 4103175130828646194, guid: d713069844cd6714dbeec62e463c7889, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.757
+      objectReference: {fileID: 0}
+    - target: {fileID: 4103175130828646194, guid: d713069844cd6714dbeec62e463c7889, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 4103175130828646195, guid: d713069844cd6714dbeec62e463c7889, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d713069844cd6714dbeec62e463c7889, type: 3}
 --- !u!224 &6886307591878776340 stripped
