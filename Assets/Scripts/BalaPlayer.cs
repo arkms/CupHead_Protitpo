@@ -12,5 +12,10 @@ public class BalaPlayer : MonoBehaviour
     void OnTriggerEnter2D(Collider2D collision)
     {
         Destroy(gameObject);
+        if (collision.CompareTag("Enemigo"))
+        {
+            collision.attachedRigidbody.GetComponent<Daniable>().RecibirDanio(1);
+        }
+
     }
 }

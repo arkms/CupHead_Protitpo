@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// https://www.youtube.com/watch?v=eD6cXU2G-tk
 public class GoopyIA : MonoBehaviour
 {
 
@@ -14,6 +15,7 @@ public class GoopyIA : MonoBehaviour
     [Header("Referencias")]
     public Rigidbody2D rigi;
     public Animator anim;
+    public SpriteRenderer dibujo;
 
     void Start()
     {
@@ -30,6 +32,7 @@ public class GoopyIA : MonoBehaviour
         if (collision.collider.CompareTag("Pared"))
         {
             saltoDirrecion *= -1f; // saltoDirrecion = saltoDirrecion * -1f; // Invertimos signo ( - , + )
+            dibujo.flipX = saltoDirrecion > 0f;
         }
 
         if (collision.collider.CompareTag("Suelo"))
@@ -41,14 +44,19 @@ public class GoopyIA : MonoBehaviour
     void PreSalto()
     {
         anim.SetTrigger("Saltar");
-        Invoke(nameof(Saltar), saltoCooldown);
+        //Invoke(nameof(Saltar), saltoCooldown);
     }
 
     [ContextMenu("Saltar")]
-    void Saltar()
+    public void Saltar()
     {
         float fuerzaSalto = Random.Range(fuerzaSaltoMin, fuerzaSaltoMax);
         Vector2 dir = new Vector2(0.2f * saltoDirrecion, 0.7f);
         rigi.AddForce(dir * fuerzaSalto);
+    }
+
+    public void VidaLlego0()
+    {
+        Destroy(gameObject);
     }
 }

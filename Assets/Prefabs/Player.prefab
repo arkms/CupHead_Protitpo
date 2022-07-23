@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3742144722490312504}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.954, z: 0}
+  m_LocalPosition: {x: 0, y: -0.95, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -310,7 +310,7 @@ MonoBehaviour:
   prefabExMove: {fileID: 3724099147239951883, guid: 3a8d934eda734404eb4df6b3fd1b7512, type: 3}
   frecuenciaExMove: 1
   uiPlayer: {fileID: 0}
-  playerAnimation: {fileID: 0}
+  playerAnimation: {fileID: 1518697040}
 --- !u!114 &1518697040
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -348,7 +348,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4103175130828646195}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.75699997, y: 0.909, z: 0}
+  m_LocalPosition: {x: 0.757, y: 0.67, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

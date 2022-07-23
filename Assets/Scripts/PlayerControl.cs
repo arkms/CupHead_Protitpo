@@ -65,6 +65,14 @@ public class PlayerControl : MonoBehaviour
         }
     }
 
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Enemigo"))
+        {
+            GameManager.Instance.JugadorMuere();
+        }
+    }
+
     void Movimiento()
     {
         if (EstaEnDash) return;
