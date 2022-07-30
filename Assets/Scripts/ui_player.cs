@@ -13,6 +13,15 @@ public class ui_player : MonoBehaviour
     [Header("Monedas")]
     public TextMeshProUGUI monedasTxt;
 
+    [Header("Victoria")]
+    public GameObject victoriaPanel;
+
+    public void MostrarVictoria()
+    {
+        victoriaPanel.SetActive(true);
+        Time.timeScale = 0f; // Pausar juego
+    }
+
     public void ActualizarMonedas(int _monedas)
     {
         monedasTxt.SetText(_monedas.ToString());

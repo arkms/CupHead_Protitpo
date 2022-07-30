@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
+// Al colocar este script sobre un objeto, puede ser dañado por el jugador
+// Para que este script funcione, el objeto necesita tener asginado el tag de "Enemigo"
+
 public class Daniable : MonoBehaviour
 {
 

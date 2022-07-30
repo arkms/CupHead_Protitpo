@@ -49,7 +49,8 @@ public class PlayerControl : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Parry"))
+        //if (collision.CompareTag("Parry"))
+        if (collision.CompareTag(GameConstantes.Tags.Parry))
         {
             EstaTocandoObjetoParry = true;
             parryGo = collision.gameObject; // Guardamos que objeto estamos tocando
@@ -58,7 +59,7 @@ public class PlayerControl : MonoBehaviour
 
     void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.CompareTag("Parry"))
+        if (collision.CompareTag(GameConstantes.Tags.Parry))
         {
             EstaTocandoObjetoParry = false;
             parryGo = null;
@@ -67,7 +68,7 @@ public class PlayerControl : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Enemigo"))
+        if (collision.gameObject.CompareTag(GameConstantes.Tags.Enemigo))
         {
             GameManager.Instance.JugadorMuere();
         }
